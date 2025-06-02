@@ -5,10 +5,8 @@ import { GiFullPizza } from "react-icons/gi";
 import { MdTravelExplore } from "react-icons/md";
 import { LuSquareSplitHorizontal } from "react-icons/lu";
 import { FaHospitalAlt } from "react-icons/fa";
+import { BsSuitcase2Fill } from "react-icons/bs";
 
-
-// const theWildOasisTech = ["React JS", "Supabase", "TailwindCSS", "styled Components", "React Query", "Context API"];
-// const pizzaTech = ["React JS", "React-Redux", "TailwindCSS", "React-Router-DOM", "Context API"];
 
 const projects = [
     {
@@ -46,7 +44,7 @@ const projects = [
         websiteLink: "https://eat-n-split-black.vercel.app/",
     },
     {
-        icon: <LuSquareSplitHorizontal />,
+        icon: <BsSuitcase2Fill />        ,
         title: "Packing List App",
         description: "Developed a lightweight yet powerful React-based packing list application designed to assist users in organizing and preparing for their trips efficiently. The app allows users to add travel items, mark them as packed or unpacked, and automatically saves their list using browser local storage to ensure persistence across sessions.",
         techStack: ["React JS"],
